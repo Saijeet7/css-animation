@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+}
+
+.container {
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    margin-right: 50px;
+    position: relative;
+}
+
+.logo img {
+    width: 50%;
+}
+
+.github-black {
+    background-color: black;
+    border-radius: 100%;
+}
+
+.circle {
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+    position: absolute;
+    opacity: 0;
+}
+
+.circle-1 {
+    border: 1.5px solid rgb(35, 171, 235);
+    transition: opacity 1s ease;
+    top: -15px;
+    left: -17px;
+}
+
+.logo:hover .circle-1 {
+    opacity: 1;
+}
+
+.circle-2 {
+    width: 60%;
+    height: 60%;
+    opacity: 0;
+    top: -7px;
+    left: -7px;
+    transition: opacity 1s 0.2s ease;
+    border: 1.5px solid rgb(35, 171, 235);
+}
+
+.logo:hover .circle-2 {
+    opacity: 0.8;
+}
+
+.circle-3 {
+    top: -15px;
+    left: -17px;
+    border: 2px dotted tomato;
+    transition: transform 1s ease, opacity 1s ease;
+}
+
+.instagram:hover .circle-3 {
+    opacity: 1;
+    transform: rotate(360deg);
+}
+
+.github-black {
+    transition: all 1s ease;
+}
+
+.github:hover .github-black {
+    transform: rotate(360deg);
+}

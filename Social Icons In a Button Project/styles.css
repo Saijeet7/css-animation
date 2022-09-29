@@ -60,15 +60,15 @@ body {
 }
 
 .icon-fb {
-    transition: all 0.5s ease;
+    transition: all 0.2s ease;
 }
 
 .icon-in {
-    transition: all 0.7s ease;
+    transition: all 0.4s ease;
 }
 
 .icon-ln {
-    transition: all 0.9s ease;
+    transition: all 0.6s ease;
 }
 
 a {

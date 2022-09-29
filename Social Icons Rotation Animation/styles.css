@@ -23,7 +23,7 @@ body {
     align-items: center;
     font-size: 50px;
     color: white;
-    transition: all 1s ease-in-out;
+    transition: all 0.5s ease-in-out;
 }
 
 .button {
@@ -92,7 +92,7 @@ body {
     transform: translate(50px, 50px);
 }
 
-.icon {
+.button {
     cursor: pointer;
 }
 

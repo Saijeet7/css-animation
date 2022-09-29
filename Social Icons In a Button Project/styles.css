@@ -13,6 +13,7 @@ body {
 .container {
     width: 120px;
     height: 50px;
+    cursor: pointer;
 }
 
 .box {
@@ -38,6 +39,7 @@ body {
 }
 
 .text {
+    font-family: 'Merriweather', serif;
     transition: all 0.5s ease;
 }
 
@@ -67,4 +69,13 @@ body {
 
 .icon-ln {
     transition: all 0.9s ease;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.link:hover .icon {
+    font-size: 20px;
 }
